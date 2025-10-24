@@ -124,7 +124,7 @@ src/
 ## Deployment
 
 This application is deployed on Vercel and can be accessed at:
-[https://tria-contact-list.vercel.app](https://tria-react.vercel.app/)
+[https://tria-react.vercel.app/](https://tria-react.vercel.app/)
 
 ### Deployment Steps
 1. Push code to GitHub repository
