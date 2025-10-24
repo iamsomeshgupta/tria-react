@@ -1,0 +1,162 @@
+.contact-item {
+  display: flex;
+  align-items: center;
+  padding: 20px 30px;
+  border-bottom: 1px solid #f1f3f4;
+  transition: all 0.2s ease;
+  background: white;
+}
+
+.contact-item:hover {
+  background: #f8f9fa;
+}
+
+.contact-item:last-child {
+  border-bottom: none;
+}
+
+.contact-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.contact-name {
+  margin: 0 0 8px 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #212529;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.contact-detail {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #6c757d;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  padding: 2px 0;
+}
+
+.contact-detail:hover {
+  color: #667eea;
+}
+
+.contact-icon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+.contact-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  color: #dc3545;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-btn:hover {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.delete-btn svg {
+  width: 18px;
+  height: 18px;
+}
+
+.delete-confirm {
+  display: flex;
+  gap: 5px;
+}
+
+.confirm-delete,
+.cancel-delete {
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirm-delete {
+  background: #dc3545;
+  color: white;
+}
+
+.confirm-delete:hover {
+  background: #c82333;
+}
+
+.cancel-delete {
+  background: #6c757d;
+  color: white;
+}
+
+.cancel-delete:hover {
+  background: #5a6268;
+}
+
+@media (max-width: 768px) {
+  .contact-item {
+    padding: 15px 20px;
+  }
+  
+  .contact-avatar {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+    margin-right: 15px;
+  }
+  
+  .contact-name {
+    font-size: 1.1rem;
+  }
+  
+  .contact-details {
+    gap: 2px;
+  }
+  
+  .contact-detail {
+    font-size: 0.85rem;
+  }
+}
