@@ -13,9 +13,7 @@ A modern, responsive contact list application built with React. This application
 
 ## Demo
 
-[Live Demo](https://tria-contact-list.vercel.app) - Deployed on Vercel
-
-## Screenshots
+[Live Demo](https://tria-react.vercel.app/) - Deployed on Vercel
 
 The application features:
 - Clean, modern interface with gradient backgrounds
@@ -43,8 +41,8 @@ The application features:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/tria-contact-list.git
-cd tria-contact-list
+git clone https://github.com/iamsomeshgupta/tria-react.git
+cd tria-react
 ```
 
 2. Install dependencies:
@@ -126,7 +124,7 @@ src/
 ## Deployment
 
 This application is deployed on Vercel and can be accessed at:
-[https://tria-contact-list.vercel.app](https://tria-contact-list.vercel.app)
+[https://tria-contact-list.vercel.app](https://tria-react.vercel.app/)
 
 ### Deployment Steps
 1. Push code to GitHub repository
@@ -177,7 +175,3 @@ This application is deployed on Vercel and can be accessed at:
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-## Contact
-
-For questions or feedback, please contact [your-email@example.com](mailto:your-email@example.com).
